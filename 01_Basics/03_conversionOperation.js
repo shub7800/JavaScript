@@ -2,8 +2,8 @@ let score ="26abc"
 console.log(typeof score);//string 
 
 let valueInNumber= Number(score )// this type fixed the datatype with repect to given data type 
-console.log(typeof valueInNumber);// Number , 
-console.log(valueInNumber);// it give NaN  
+console.log(typeof valueInNumber);// Number type 
+console.log(valueInNumber);// it give NaN  -> not a number 
  
 //"33" =>33
 //"33abc"  => NaN not a number 
@@ -52,11 +52,11 @@ let str1="hello"
 let str2="shubham"
 let str3=str1+ str2
 console.log(str3);
-console.log("1"+2);//12
+console.log("1"+2);//12 
 console.log(1+"2");//12
-console.log("1"+2+2);//122
-console.log(1+2+"2");//32
-console.log(+true);
+console.log("1"+2+2);//122 string first hai to sabhi ko string main treat kiya jaye ga 
+console.log(1+2+"2");//32 number first hai toh phele usko add ya jo expression jhai wo calculate karega fir string ke sath add ho ga  
+console.log(+true); 
 console.log("");
 console.log(+"");
 
