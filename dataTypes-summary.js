@@ -45,3 +45,23 @@ BigInt	            "bigint"	                BigInt
 String	            "string"	                String
 Symbol	            "symbol"                	Symbol
 */
+
+/************************************************************************************** */
+
+
+//MEMORY IN JS
+
+// stack(primitive), Heap(non primitive)
+
+/*stack use primitive type memory
+    -jo bhi variable declear karte hai uski ek copy milta hai 
+
+*/
+
+
+/*heap use non primitive type memory
+    -it give referance of orignal variable 
+
+    let myYtName="Shubham"
+
+*/
